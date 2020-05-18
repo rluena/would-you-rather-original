@@ -17,6 +17,8 @@
   },
   "scripts": {
     "commit": "git-cz",
+    "build-dictionary": "node_modules/.bin/style-dictionary build --config ./src/components/utils/tokens/config.json",
+    "build-clean": "",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,7 +44,8 @@
     "cz-conventional-changelog": "^3.1.0",
     "jsdoc": "^3.6.4",
     "redux-devtools-extension": "^2.13.8",
-    "redux-immutable-state-invariant": "^2.1.0"
+    "redux-immutable-state-invariant": "^2.1.0",
+    "style-dictionary": "^2.10.0"
   },
   "config": {
     "commitizen": {

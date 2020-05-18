@@ -1,0 +1,25 @@
+{
+  "color": {
+    "base": {
+      "blue": {
+        "100": { "value": "#3a36e0", "attributes": { "font": "base" } },
+        "200": { "value": "#0804b8", "attributes": { "font": "base" } },
+        "300": { "value": "#030086", "attributes": { "font": "base" } },
+        "400": { "value": "#5f25a4", "attributes": { "font": "base" } },
+        "500": { "value": "#050449", "attributes": { "font": "base" } }
+      },
+      "red": {
+        "100": { "value": "#d0454c", "attributes": { "font": "base" } },
+        "200": { "value": "#b54248", "attributes": { "font": "base" } },
+        "300": { "value": "#95353a", "attributes": { "font": "base" } }
+      },
+      "neutral": {
+        "100": { "value": "#ffffff", "attributes": { "font": "base" } },
+        "200": { "value": "#f4f5f7", "attributes": { "font": "base" } },
+        "300": { "value": "#e1e1e1", "attributes": { "font": "base" } },
+        "400": { "value": "#737581", "attributes": { "font": "base" } },
+        "500": { "value": "#000000", "attributes": { "font": "base" } }
+      }
+    }
+  }
+}

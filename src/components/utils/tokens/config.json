@@ -1,0 +1,15 @@
+{
+  "source": ["./src/components/utils/tokens/properties/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "./src/components/utils/",
+      "files": [
+        {
+          "destination": "style/_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}
