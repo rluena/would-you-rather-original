@@ -1,14 +1,13 @@
 {
   "size": {
     "font": {
-      "h1": "1.8rem",
-      "h2": "1.6rem",
-      "h3": "1.4rem",
-      "h4": "1.2rem",
-      "h5": "1.1rem",
-      "paragraph": "1rem",
-      "small": "0.7rem",
-      "x_small": ""
+      "h1": { "value": "1.8rem" },
+      "h2": { "value": "1.6rem" },
+      "h3": { "value": "1.4rem" },
+      "h4": { "value": "1.2rem" },
+      "h5": { "value": "1.1rem" },
+      "paragraph": { "value": "1rem" },
+      "small": { "value": "0.7rem" }
     }
   }
 }

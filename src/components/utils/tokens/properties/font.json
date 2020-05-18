@@ -1,7 +1,7 @@
 {
   "font": {
     "family": {
-      "primary": "\"Roboto Mono\", Arial"
+      "default": { "value": "\"Roboto\", Arial" }
     }
   }
 }
