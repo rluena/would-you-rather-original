@@ -9,9 +9,7 @@ const Card = ({ heading, children }) => {
   return (
     <div className="card">
       <div className="card__header">
-        <Text type="h2" className="card__heading">
-          {heading}
-        </Text>
+        <Text.h3>"Hello World!"</Text.h3>
       </div>
 
       <div className="main">{children}</div>
@@ -39,9 +37,7 @@ Card.Poll = ({ onClick, heading }) => {
         <div className="card__section">
           <Text type="paragraph">...be...</Text>
           <div className="card__buttons">
-            <Button primary wide onClick={onClick}>
-              Button
-            </Button>
+            <Button>Button</Button>
           </div>
         </div>
       </div>

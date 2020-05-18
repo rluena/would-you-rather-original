@@ -1,13 +1,15 @@
 import React from "react";
 import "./text.scss";
 
-const Text = (text) => <p className="paragraph">{text}</p>;
+const Text = ({ children }) => (
+  <p className="text text-paragraph">{children}</p>
+);
 
-Text.h1 = (text) => <h1 className="heading1">{text}</h1>;
-Text.h2 = (text) => <h2 className="heading2">{text}</h2>;
-Text.h3 = (text) => <h3 className="heading3">{text}</h3>;
-Text.h4 = (text) => <h4 className="heading4">{text}</h4>;
-Text.h5 = (text) => <h5 className="heading5">{text}</h5>;
-Text.h6 = (text) => <h6 className="heading6">{text}</h6>;
+Text.h1 = ({ children }) => <h1 className="text text-h1">{children}</h1>;
+Text.h2 = ({ children }) => <h2 className="text text-h2">{children}</h2>;
+Text.h3 = ({ children }) => <h3 className="text text-h3">{children}</h3>;
+Text.h4 = ({ children }) => <h4 className="text text-h4">{children}</h4>;
+Text.h5 = ({ children }) => <h5 className="text text-h5">{children}</h5>;
+Text.h6 = ({ children }) => <h6 className="text text-h6">{children}</h6>;
 
 export default Text;
