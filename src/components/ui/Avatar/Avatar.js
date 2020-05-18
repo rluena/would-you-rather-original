@@ -1,20 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./avart.scss";
 
-const Avatar = ({ imgSrc }) => {
+const Avatar = ({ src }) => {
   return (
     <div className="avatar">
-      <img className="avatar__img" src={imgSrc} alt="alt text" />
+      <img className="avatar__img" src={src} alt="alt text" />
     </div>
   );
 };
 
 Avatar.defaultProps = {
-  imgSrc: "", // TODO: Add a dummy avatart image
+  src: "", // TODO: Add a dummy avatart image
 };
 
 Avatar.propTypes = {
-  imgSrc: PropTypes.string,
+  src: PropTypes.string,
 };
 
 export default Avatar;

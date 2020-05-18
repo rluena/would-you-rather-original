@@ -1,0 +1,27 @@
+@import "../../utils/style/common";
+
+.btn {
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  padding: $size-padding-medium $size-padding-large;
+  color: $color-base-blue-100;
+
+  &--primary {
+    color: $color-base-neutral-100;
+    background-color: $color-base-blue-200;
+    font-size: $size-font-paragraph;
+  }
+
+  &--small {
+    padding: $size-padding-small $size-padding-small;
+  }
+
+  &--large {
+    padding: $size-padding-large $size-padding-large;
+  }
+
+  $--wide {
+    width: 100%;
+  }
+}

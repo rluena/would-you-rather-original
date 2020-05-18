@@ -1,0 +1,10 @@
+@import "../../utils/style/common";
+
+.avatar {
+  img {
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    border: 1px solid $color-base-blue-100;
+  }
+}

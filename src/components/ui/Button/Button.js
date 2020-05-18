@@ -6,9 +6,8 @@ const Button = ({ children, modifiers, ...settings }) => {
   return (
     <button
       type="button"
-      className={`button ${
-        modifiers &&
-        modifiers.map((modifier) => `button--${modifier}`).join(" ")
+      className={`btn ${
+        modifiers && modifiers.map((modifier) => `btn--${modifier}`).join(" ")
       }`}
       {...settings}
     >
